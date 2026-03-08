@@ -2,12 +2,36 @@
 
 ## Compliance Notice / 合规声明
 
-- This repository is provided only for education, reverse engineering research, debugging, and interoperability study.
-- Do not use any code or ideas here for unauthorized access, cheating in online services, privacy invasion, data theft, malware delivery, or service disruption.
-- You must comply with applicable laws, platform Terms of Service, and software/game EULA before any use.
-- If any content infringes your rights, open an issue or contact the maintainer for removal.
-- Full statement: [DISCLAIMER.md](./DISCLAIMER.md)
+- 本仓库仅用于学习、逆向研究、调试分析和兼容性研究。
+- 禁止用于未授权访问、破坏服务、隐私侵害、在线作弊、恶意传播等行为。
+- 使用者需自行遵守当地法律、平台条款与相关 EULA。
+- 若涉及侵权内容，请通过 Issue 联系维护者处理。
+- 完整声明见 [DISCLAIMER.md](./DISCLAIMER.md)
 
 ---
-Basic project information will be documented here.
 
+这是一个历史代码仓库，主要用于代码留档和研究复现。
+
+## 当前状态
+
+- 处于归档/研究维护状态
+- 仓库以源码内容为主，不保证开箱即用
+- 重点在阅读、分析与结构参考
+
+## 目录概览
+
+- `src/main/java/`：主要 Java 源码
+- `lib/`：依赖库
+- `DISCLAIMER.md`：合规声明
+
+## 如何查看这份代码
+
+如果你只是想看代码结构：
+
+1. 用 IntelliJ IDEA 导入项目
+2. 先索引整个 `src/main/java`
+3. 从入口类和 `command`、`event`、`config` 包开始阅读
+
+## 说明
+
+本仓库不提供任何面向违规用途的支持或指导。
